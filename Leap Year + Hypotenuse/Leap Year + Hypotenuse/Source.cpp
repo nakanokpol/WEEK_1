@@ -185,7 +185,14 @@ int main()
 		printf("insert only year 2543-3543");
 	}
 
-	printf("\nHypotenuse= %lf\n", pythagorus(q, w));
+	if(year1>3539)
+	{
+		printf("Can't calculate the hypotenuse\n");
+	}
+	else
+	{
+		printf("\nHypotenuse= %lf\n", pythagorus(q, w));
+	}
 
 	return 0;
 }
