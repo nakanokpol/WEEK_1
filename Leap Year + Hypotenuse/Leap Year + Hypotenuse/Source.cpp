@@ -191,7 +191,7 @@ int main()
 	}
 	else
 	{
-		printf("\nHypotenuse= %lf\n", pythagorus(q, w));
+		printf("\nHypotenuse= %lf units\n", pythagorus(q, w));
 	}
 
 	return 0;
