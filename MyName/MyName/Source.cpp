@@ -9,4 +9,5 @@ int main()
 	scanf("%s", &Name);
 
 	printf("Hi %s!",Name);
+	return 0;
 }
